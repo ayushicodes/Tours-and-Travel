@@ -3,8 +3,8 @@ import React from "react";
 const Header2 = () => {
   return (
     <>
-      <div className="fixed top-0 w-full bg-blue-500 text-white p-4 mt-12">
-        <ul className="flex space-x-4">
+      <div className="fixed top-0 w-full bg-blue-500 text-white p-4 mt-12 z-10">
+        <ul className="flex space-x-16">
           <li>International Packages</li>
           <li>Indian Packages</li>
           <li>Weekend Trips</li>
