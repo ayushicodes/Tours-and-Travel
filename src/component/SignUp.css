@@ -1,9 +1,0 @@
-.form-container {
-  background-image: url("./../Assets/landingpageimage.jpg");
-}
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
