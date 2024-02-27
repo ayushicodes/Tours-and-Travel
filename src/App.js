@@ -4,15 +4,14 @@ import Header1 from "./component/Header1";
 import Header2 from "./component/Header2";
 import Header from "./component/Header";
 import PlaceImages from "./component/PlaceImages";
-// import { Slider } from "./Slider";
-// import slider from "./component/Mock";
-
+import BeautifulDestination from "./component/Beautiful Destination/BeautifulDestination";
 function App() {
   return (
     <div>
       <Header1 />
       <Header2 />
       <LandingPage />
+      <BeautifulDestination />
       <Header heading="Popular Destination" />
       <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-3 justify-items-center mt-20">
         {PlaceImages.map((items) => {
