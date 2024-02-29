@@ -16,23 +16,18 @@ const LeftSection = () => {
   });
   const onSubmit = (data) => console.log(data);
   return (
-    <div className="xl:container mx-auto mb-32">
-      <div
-        className="flex justify-center"
-        style={{
-          background:
-            "radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(252,70,107,1) 100%)",
-          height: "250px",
-        }}
-      >
-        <h1 className="text-5xl sm:text-7xl text-white uppercase pt-12">
-          Get In Touch
-        </h1>
-      </div>
-      <div>
-        <form onSubmit={handleSubmit(onSubmit)}>
+    <div className="w-full border-4 border-cyan-200 flex flex-col items-center justify-center ">
+      <h1 className="text-2xl sm:text-2xl text-cyan-700 uppercase pt-12 text-center">
+        Get In Touch
+      </h1>
+      <div className=" border-4 border-cyan-200 w-3/6 flex items-center justify-center ">
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          className=" w-9/12	flex  flex-col  "
+        >
           <Controller
             name="name"
+            className="border-4 border-cyan-200"
             control={control}
             rules={{ required: true }}
             render={({ field }) => (
@@ -42,20 +37,6 @@ const LeftSection = () => {
                 placeholder="Enter name here..."
                 fieldRef={field}
                 hasError={errors.name?.type === "required"}
-              />
-            )}
-          />
-          <Controller
-            name="number"
-            control={control}
-            rules={{ required: true }}
-            render={({ field }) => (
-              <FormElement
-                type="number"
-                label="Number"
-                placeholder="Enter Number here..."
-                fieldRef={field}
-                hasError={errors.number?.type === "required"}
               />
             )}
           />
@@ -70,6 +51,76 @@ const LeftSection = () => {
                 placeholder="Enter Email here..."
                 fieldRef={field}
                 hasError={errors.email?.type === "required"}
+              />
+            )}
+          />
+          <Controller
+            name="text"
+            control={control}
+            rules={{ required: true }}
+            render={({ field }) => (
+              <FormElement
+                type="text"
+                label="Location"
+                placeholder="Enter Location here..."
+                fieldRef={field}
+                hasError={errors.text?.type === "required"}
+              />
+            )}
+          />
+          <Controller
+            name="date"
+            control={control}
+            rules={{ required: true }}
+            render={({ field }) => (
+              <FormElement
+                type="date"
+                label="Date of Travel"
+                placeholder="Enter Date of Travel here..."
+                fieldRef={field}
+                hasError={errors.date?.type === "required"}
+              />
+            )}
+          />
+          <Controller
+            name="Number of Nights"
+            control={control}
+            rules={{ required: true }}
+            render={({ field }) => (
+              <FormElement
+                type="number"
+                label="Number of Nights"
+                placeholder="Enter Number of Nights here..."
+                fieldRef={field}
+                hasError={errors.number?.type === "required"}
+              />
+            )}
+          />
+          <Controller
+            name="Number of Adults"
+            control={control}
+            rules={{ required: true }}
+            render={({ field }) => (
+              <FormElement
+                type="number"
+                label="Number of Adults"
+                placeholder="Enter Number of Adults here..."
+                fieldRef={field}
+                hasError={errors.number?.type === "required"}
+              />
+            )}
+          />
+          <Controller
+            name="number"
+            control={control}
+            rules={{ required: true }}
+            render={({ field }) => (
+              <FormElement
+                type="number"
+                label="Number of Kids"
+                placeholder="Enter Number of Kids here..."
+                fieldRef={field}
+                hasError={errors.number?.type === "required"}
               />
             )}
           />
