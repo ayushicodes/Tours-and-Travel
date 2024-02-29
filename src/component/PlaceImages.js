@@ -7,7 +7,7 @@ const PlaceImages = [
   },
   {
     url: require("./../Assets/Hotel (5).png"),
-    name: "Jaisalmer",
+    name: "Goa",
     alt: "Jaisalmer",
     decs: "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa.",
   },
@@ -33,18 +33,6 @@ const PlaceImages = [
     url: require("./../Assets/Hotel (9).png"),
     name: "Dubai",
     alt: "Dubai",
-    decs: "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa.",
-  },
-  {
-    url: require("./../Assets/Hotel (10).png"),
-    name: "Paris",
-    alt: "Paris",
-    decs: "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa.",
-  },
-  {
-    url: require("./../Assets/Hotel (11).png"),
-    name: "Turkey",
-    alt: "Turkey",
     decs: "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa.",
   },
 ];

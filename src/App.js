@@ -5,6 +5,7 @@ import Header2 from "./component/Header2";
 import Header from "./component/Header";
 import PlaceImages from "./component/PlaceImages";
 import BeautifulDestination from "./component/Beautiful Destination/BeautifulDestination";
+import MainContact from "./component/Contact/MainContact";
 function App() {
   return (
     <div>
@@ -13,13 +14,13 @@ function App() {
       <LandingPage />
       <BeautifulDestination />
       <Header heading="Popular Destination" />
-      <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-3 justify-items-center mt-20">
+      <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-3 justify-items-center mt-10">
         {PlaceImages.map((items) => {
           console.log("url", items.url);
           return (
             <div className="py-10">
               <div className=" overflow-hidden max-w-sm shadow-lg rounded">
-                <img src={items.url} alt={items.alt} className="w-full " />
+                <img src={items.url} alt={items.alt} className="w-full h-80" />
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">{items.name}</div>
                   <p className="text-gray-400	">{items.decs}</p>
@@ -40,6 +41,7 @@ function App() {
           );
         })}
       </div>
+      <MainContact />
     </div>
   );
 }
