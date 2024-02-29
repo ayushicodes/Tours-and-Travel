@@ -16,18 +16,17 @@ const LeftSection = () => {
   });
   const onSubmit = (data) => console.log(data);
   return (
-    <div className="w-full border-4 border-cyan-200 flex flex-col items-center justify-center ">
-      <h1 className="text-2xl sm:text-2xl text-cyan-700 uppercase pt-12 text-center">
+    <div className="w-full  flex flex-col items-center justify-center ">
+      <h1 className="text-2xl sm:text-2xl text-cyan-700 uppercase pt-12 text-center font-bold">
         Get In Touch
       </h1>
-      <div className=" border-4 border-cyan-200 w-3/6 flex items-center justify-center ">
+      <div className=" border-2 border-cyan-400 w-3/6 flex items-center bg-cyan-50 rounded justify-center mt-10">
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className=" w-9/12	flex  flex-col  "
+          className=" w-9/12	flex  flex-col  py-10"
         >
           <Controller
             name="name"
-            className="border-4 border-cyan-200"
             control={control}
             rules={{ required: true }}
             render={({ field }) => (

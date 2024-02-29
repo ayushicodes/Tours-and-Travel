@@ -3,7 +3,7 @@ import LeftSection from "./LeftSection";
 
 const MainContact = () => {
   return (
-    <div>
+    <div className=" mb-24">
       <LeftSection />
     </div>
   );

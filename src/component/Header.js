@@ -1,7 +1,11 @@
 import React from "react";
 
 const Header = (props) => {
-  return <div className="text-5xl text-center font-bold">{props.heading}</div>;
+  return (
+    <div className="text-4xl text-center font-bold  text-cyan-700 ">
+      {props.heading}
+    </div>
+  );
 };
 
 export default Header;
