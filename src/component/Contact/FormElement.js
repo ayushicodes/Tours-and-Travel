@@ -1,4 +1,11 @@
-export default ({ type, label, placeholder, fieldRef, hasError, text }) => {
+const FormElement = ({
+  type,
+  label,
+  placeholder,
+  fieldRef,
+  hasError,
+  text,
+}) => {
   const classes = `form-control w-full py-1.5 px-1.5 text-gray-700 rounded border border-solid border-cyan-200 focus:border-pink-600 focus:outline-none`;
 
   return (
@@ -27,3 +34,4 @@ export default ({ type, label, placeholder, fieldRef, hasError, text }) => {
     </div>
   );
 };
+export default FormElement;
