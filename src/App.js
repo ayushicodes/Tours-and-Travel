@@ -1,17 +1,16 @@
 import "./App.css";
 import LandingPage from "./component/LandingPage";
 import Header1 from "./component/Header1";
-import Header2 from "./component/Header2";
 import Header from "./component/Header";
 import PlaceImages from "./component/PlaceImages";
 import BeautifulDestination from "./component/Beautiful Destination/BeautifulDestination";
 import MainContact from "./component/Contact/MainContact";
-import { TripPlanning } from "./component/Trip Planning/TripPlanning";
+import Review from "./component/reviews/Review";
+// import { TripPlanning } from "./component/Trip Planning/TripPlanning";
 function App() {
   return (
     <div>
       <Header1 />
-      <Header2 />
       <LandingPage />
       <BeautifulDestination />
       <Header heading="Popular Destination" />
@@ -43,7 +42,7 @@ function App() {
       </div>
       <MainContact />
       <Header heading="Planning a trip has never been this easy" />
-      <TripPlanning />
+      {/* <TripPlanning /> */}
     </div>
   );
 }

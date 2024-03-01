@@ -1,11 +1,10 @@
 import React from "react";
-
 import video from "./../Assets/waves_-_70796 (Original).mp4";
 
 const LandingPage = () => {
   return (
-    <div className="w-100% h-screen border border-sky-500">
-      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40 "></div>
+    <div className="relative w-100% sm:overflow-x-hidden h-screen border border-sky-500  lg:w-full">
+      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
       <video
         src={video}
         autoPlay
@@ -22,4 +21,5 @@ const LandingPage = () => {
     </div>
   );
 };
+
 export default LandingPage;
