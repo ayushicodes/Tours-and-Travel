@@ -5,7 +5,7 @@ import Header from "./component/Header";
 import PlaceImages from "./component/PlaceImages";
 import BeautifulDestination from "./component/Beautiful Destination/BeautifulDestination";
 import MainContact from "./component/Contact/MainContact";
-import Review from "./component/reviews/Review";
+// import Review from "./component/reviews/Review";
 // import { TripPlanning } from "./component/Trip Planning/TripPlanning";
 function App() {
   return (
