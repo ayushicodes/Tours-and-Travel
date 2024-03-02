@@ -1,39 +1,46 @@
 const PlaceImages = [
   {
-    url: require("./../Assets/Hotel (4).png"),
+    url: require("./../Assets/Hotel1.png"),
     name: "Goa",
     alt: "Goa",
-    decs: "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa.",
   },
   {
-    url: require("./../Assets/Hotel (5).png"),
+    url: require("./../Assets/Hotel2.png"),
     name: "Goa",
     alt: "Jaisalmer",
-    decs: "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa.",
   },
   {
-    url: require("./../Assets/Hotel (6).png"),
+    url: require("./../Assets/Hotel3.png"),
     name: "Manali",
     alt: "Manali",
-    decs: "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa.",
   },
   {
-    url: require("./../Assets/Hotel (7).png"),
+    url: require("./../Assets/Hotel4.png"),
     name: "Mussoorie",
     alt: "Mussoorie",
-    decs: "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa.",
   },
   {
-    url: require("./../Assets/Hotel (8).png"),
+    url: require("./../Assets/Hotel5.png"),
     name: "Shimla",
     alt: "Shimla",
     decs: "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa.",
   },
   {
-    url: require("./../Assets/Hotel (9).png"),
+    url: require("./../Assets/Hotel6.png"),
     name: "Dubai",
     alt: "Dubai",
     decs: "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa.",
+  },
+  {
+    url: require("./../Assets/Hotel7.png"),
+    name: "Singapore",
+    alt: "Singapore",
+    decs: "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa.",
+  },
+  {
+    url: require("./../Assets/Hotel8.png"),
+    name: "Paris",
+    alt: "Paris",
   },
 ];
 export default PlaceImages;

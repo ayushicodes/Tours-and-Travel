@@ -11,13 +11,13 @@ const Header1 = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <div
-      className="grid shadow"
+      className="grid shadow  bg-white"
       style={{ gridTemplateColumns: "5rem 1fr 2fr 1fr 5rem" }}
       id="main-nav"
     >
       {/* Logo */}
       <div
-        className="grid justify-start items-center h-20 w-20 col-start-2 col-end-3"
+        className="grid justify-start items-center h-20	w-28 col-start-2 col-end-3"
         id="logo"
       >
         <img src={Logo} alt="websiteLogo"></img>
@@ -29,16 +29,24 @@ const Header1 = () => {
       >
         <ul className="flex justify-around items-center h-20	">
           <li className="capitalize">
-            <a href="#Home">Home</a>
+            <a href="#Home" className="text-xl font-semibold">
+              Home
+            </a>
           </li>
           <li className="capitalize">
-            <a href="#Home">About us</a>
+            <a href="#Home" className="text-xl font-semibold">
+              About us
+            </a>
           </li>
           <li className="capitalize">
-            <a href="#Home">Our Hotels</a>
+            <a href="#Home" className="text-xl font-semibold">
+              Our Hotels
+            </a>
           </li>
           <li className="capitalize">
-            <a href="#Home">Contact Us</a>
+            <a href="#Home" className="text-xl font-semibold">
+              Contact Us
+            </a>
           </li>
         </ul>
       </div>
@@ -49,32 +57,32 @@ const Header1 = () => {
           style={{ gridTemplateColumns: "3fr repeat(3,1fr)" }}
           id="social-media-desktop"
         >
-          <li className="col-start-2 col-end-3 ">
+          <li className="col-start-2 col-end-3 text-2xl">
             <a
               href="https://www.instagram.com/travokholidays/"
               rel="noreferrer"
               target="_blank"
-              className="text-right"
+              className="text-right className='text-xl'"
             >
               <RiInstagramFill className="text-red-900" />
             </a>
           </li>
-          <li>
+          <li className="text-2xl">
             <a
               href="https://www.instagram.com/travokholidays/"
               rel="noreferrer"
               target="_blank"
-              className="text-right"
+              className="text-right className='text-xl'"
             >
               <FaPhoneVolume className="text-cyan-600" />
             </a>
           </li>
-          <li>
+          <li className="text-2xl">
             <a
               href="https://www.instagram.com/travokholidays/"
               rel="noreferrer"
               target="_blank"
-              className="text-right"
+              className="text-right className='text-xl'"
             >
               <MdEmail className="text-green-800" />
             </a>

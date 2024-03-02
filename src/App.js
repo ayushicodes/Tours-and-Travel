@@ -5,43 +5,37 @@ import Header from "./component/Header";
 import PlaceImages from "./component/PlaceImages";
 import BeautifulDestination from "./component/Beautiful Destination/BeautifulDestination";
 import MainContact from "./component/Contact/MainContact";
-// import Review from "./component/reviews/Review";
+import Review from "./component/reviews/Review";
 // import { TripPlanning } from "./component/Trip Planning/TripPlanning";
 function App() {
   return (
     <div>
       <Header1 />
       <LandingPage />
-      <BeautifulDestination />
       <Header heading="Popular Destination" />
-      <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-3 justify-items-center mt-10 mb-14">
+      <div
+        className="grid lg:grid-cols-4 gap-1 px-28 py-8 md:grid-cols-2 justify-items-center"
+        // style={{ gridTemplateColumns: "5rem 1fr 1fr 1fr 1fr 5rem" }}
+      >
         {PlaceImages.map((items) => {
           return (
-            <div className="py-10">
-              <div className=" overflow-hidden max-w-sm shadow-lg rounded">
-                <img src={items.url} alt={items.alt} className="w-full h-80" />
-                <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">{items.name}</div>
-                  <p className="text-gray-400	">{items.decs}</p>
-                </div>
-                <div className="grid grid-flow-col gap-5 pb-2 px-6">
-                  <span className="bg-gray-200 rounded-full px- text-sm py-1 font-base mb-2">
-                    #Luxry
-                  </span>
-                  <span className="bg-gray-200 rounded-full px- text-sm py-1 font-base mb-2">
-                    #Hotel
-                  </span>
-                  <span className="bg-gray-200 rounded-full px- text-sm py-1 font-base mb-2">
-                    #Travel
-                  </span>
-                </div>
+            <div className="py-8">
+              <div className=" overflow-hidden max-w-sm shadow-xl rounded">
+                <img
+                  src={items.url}
+                  alt={items.alt}
+                  className="w-full h-80 ring-offset-cyan-400"
+                />
               </div>
             </div>
           );
         })}
       </div>
+      <BeautifulDestination />
+
       <MainContact />
-      <Header heading="Planning a trip has never been this easy" />
+      <Header heading="Hear From Travelers Like You" />
+      <Review />
       {/* <TripPlanning /> */}
     </div>
   );

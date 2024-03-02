@@ -6,7 +6,7 @@ const Review = () => {
       {ReviewData.map((items) => {
         return (
           <div>
-            <img src="" alt="" />
+            <img src={items.img} alt="" />
             <div>
               <div>
                 <h4>{items.name}</h4>

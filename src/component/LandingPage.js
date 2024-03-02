@@ -3,7 +3,7 @@ import video from "./../Assets/waves_-_70796 (Original).mp4";
 
 const LandingPage = () => {
   return (
-    <div className="relative w-100% sm:overflow-x-hidden h-screen border border-sky-500  lg:w-full">
+    <div className="relative w-100% sm:overflow-x-hidden h-screen   lg:w-full">
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
       <video
         src={video}
