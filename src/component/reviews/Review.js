@@ -2,7 +2,7 @@ import React from "react";
 import ReviewData from "./ReviewdData";
 const Review = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 py-16 px-28 ">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 py-16 lg:px-28 ">
       {ReviewData.map((items) => {
         return (
           <div className="flex flex-col items-center border-2 p-6 rounded-xl border-cyan-300 shadow-lg">

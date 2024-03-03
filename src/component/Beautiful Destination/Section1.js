@@ -12,9 +12,8 @@ const Section1 = () => {
         Breathtaking Cities
       </h2>
       <p className="text-xl mt-6 text-center">
-        Elevate your journey as we navigate you through the world's most
-        captivating destinations, ensuring each moment is a symphony of luxury,
-        culture, and unparalleled elegance.
+        For all your travel needs and inquiries, feel free to get in touch with
+        us. Let's make your journey memorable. Contact us and start exploring!
       </p>
     </div>
   );

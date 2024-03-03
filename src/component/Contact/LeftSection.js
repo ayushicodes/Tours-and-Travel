@@ -17,13 +17,10 @@ const LeftSection = () => {
   const onSubmit = (data) => console.log(data);
   return (
     <div className="w-full  flex flex-col items-center justify-center ">
-      <h1 className="text-2xl sm:text-2xl text-cyan-700 uppercase pt-12 text-center font-bold">
-        Get In Touch
-      </h1>
-      <div className=" border-2 border-cyan-400 w-3/6 flex items-center bg-cyan-50 rounded justify-center mt-10">
+      <div className=" md:w-3/6 w-full border-2 border-cyan-400 lg:w-3/6 flex items-center bg-cyan-50 rounded justify-center mt-6">
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className=" w-9/12	flex  flex-col  py-10"
+          className=" lg:w-9/12 md:w-9/12	w-full flex  flex-col  py-10"
         >
           <Controller
             name="name"
