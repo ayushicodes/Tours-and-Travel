@@ -4,7 +4,7 @@ import Section1 from "./Section1";
 
 const BeautifulDestination = () => {
   return (
-    <div className=" py-24 px-6">
+    <div className=" py-8 px-6">
       <Section1 />
       {/* <Section2 /> */}
     </div>
