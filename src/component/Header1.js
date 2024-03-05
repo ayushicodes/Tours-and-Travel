@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import Logo from "./../Assets/Logo.PNG";
 import { RiInstagramFill } from "react-icons/ri";
-import { MdEmail } from "react-icons/md";
-import { FaPhoneVolume } from "react-icons/fa6";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import "./header1.css";
