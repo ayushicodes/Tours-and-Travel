@@ -68,24 +68,7 @@ const Header1 = () => {
             </a>
           </li>
           <li className="text-2xl">
-            <a
-              href="https://www.instagram.com/travokholidays/"
-              rel="noreferrer"
-              target="_blank"
-              className="text-right className='text-xl'"
-            >
-              <FaPhoneVolume className="text-cyan-600" />
-            </a>
-          </li>
-          <li className="text-2xl">
-            <a
-              href="https://www.instagram.com/travokholidays/"
-              rel="noreferrer"
-              target="_blank"
-              className="text-right className='text-xl'"
-            >
-              <MdEmail className="text-green-800" />
-            </a>
+            <a className="text-right className='text-xl'">+919999683737</a>
           </li>
         </ul>
         <div id="hamburger">
