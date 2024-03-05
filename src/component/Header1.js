@@ -67,9 +67,7 @@ const Header1 = () => {
               <RiInstagramFill className="text-red-900" />
             </a>
           </li>
-          <li className="text-2xl">
-            <a className="text-right className='text-xl'">+919999683737</a>
-          </li>
+          <li className="text-base">+919999683737</li>
         </ul>
         <div id="hamburger">
           <a href="#home" onClick={() => setShowMediaIcons(!showMediaIcons)}>
