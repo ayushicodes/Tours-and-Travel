@@ -1,5 +1,6 @@
 import React from "react";
 import video from "./../Assets/waves_-_70796 (Original).mp4";
+import { TypeAnimation } from "react-type-animation";
 
 const LandingPage = () => {
   return (
@@ -14,8 +15,24 @@ const LandingPage = () => {
       />
       <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center text-white">
         <h6 className="text-2xl">Welcome to Travok.</h6>
-        <h4 className="lg:text-4xl sm:text-2xl font-bold">
-          Your passport to unforgettable moments.
+        <h4 className="lg:text-xl sm:text-2xl font-bold">
+          <TypeAnimation
+            sequence={[
+              // Same substring at the start will only be typed out once, initially
+              "Your Journey, Our Expertise!",
+              3000, // wait 1s before replacing "Mice" with "Hamsters"
+              "Where Every Trip is an Adventure!",
+              3000,
+              "Your Passport to Unforgettable Experiences!",
+              3000,
+              "Tailored Journeys for Every Explorer!",
+              3000,
+            ]}
+            wrapper="span"
+            speed={50}
+            style={{ fontSize: "2em", display: "inline-block" }}
+            repeat={Infinity}
+          />
         </h4>
       </div>
     </div>
