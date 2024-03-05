@@ -14,7 +14,7 @@ function App() {
       <LandingPage />
       <Header heading="Popular Destination" />
       <div
-        className="grid lg:grid-cols-4 gap-1 px-28 py-8  md:grid-cols-2 justify-items-center"
+        className="grid lg:grid-cols-4 lg:gap-8 gap:3 px-28 py-8  md:grid-cols-2 justify-items-center"
         // style={{ gridTemplateColumns: "5rem 1fr 1fr 1fr 1fr 5rem" }}
       >
         {PlaceImages.map((items) => {
