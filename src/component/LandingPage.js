@@ -15,7 +15,7 @@ const LandingPage = () => {
       />
       <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center text-white">
         <h6 className="text-2xl">Welcome to Travok.</h6>
-        <h4 className="lg:text-xl sm:text-2xl font-bold">
+        <h4 className="lg:text-xl sm:text-xs text-center sm:py-2 font-bold">
           <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed out once, initially
@@ -30,7 +30,7 @@ const LandingPage = () => {
             ]}
             wrapper="span"
             speed={50}
-            style={{ fontSize: "2em", display: "inline-block" }}
+            style={{ fontSize: "1em", display: "inline-block" }}
             repeat={Infinity}
           />
         </h4>
