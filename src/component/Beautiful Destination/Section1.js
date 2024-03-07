@@ -12,8 +12,7 @@ const Section1 = () => {
         Breathtaking Cities
       </h2>
       <p className="text-xl mt-6 text-center">
-        For all your travel needs and inquiries, feel free to get in touch with
-        us. Let's make your journey memorable. Contact us and start exploring!
+        Let's make your journey memorable. Contact us and start exploring!
       </p>
     </div>
   );

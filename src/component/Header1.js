@@ -9,7 +9,7 @@ const Header1 = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <div
-      className="grid shadow  bg-white"
+      className="grid shadow"
       style={{ gridTemplateColumns: "5rem 1fr 2fr 1fr 5rem" }}
       id="main-nav"
     >
