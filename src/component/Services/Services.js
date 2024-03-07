@@ -9,56 +9,59 @@ export const Services = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoSlide: 300,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 5000,
+    cssEase: "linear",
   };
   return (
     <div className="flex justify-center">
       <Slider {...settings} className=" w-3/5 ">
-        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl shadow">
+        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 sm:h-64	 rounded-xl shadow">
           <h6 className="text-lg font-semibold">Domestic flights</h6>
-          <div className="mt-2 text-base text-gray-400">
+          <div className="mt-2 text-base text-gray-400 text-justify">
             Soar to new heights with our domestic flights service, providing a
             hassle-free booking experience for your in-country journeys,
             ensuring a swift takeoff to your desired destinations.
           </div>
         </div>
 
-        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl	  shadow">
+        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl shadow sm:h-64">
           <h6 className="text-lg font-semibold">International Flights</h6>
-          <div className="mt-2 text-base text-gray-400">
+          <div className="mt-2 text-base text-gray-400 text-justify">
             Embark on global adventures with our international flights,
             seamlessly connecting you to captivating destinations worldwide,
             making your travel dreams take flight with convenience and
             reliability.
           </div>
         </div>
-        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl  shadow">
+        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl  shadow sm:h-64">
           <h6 className="text-lg font-semibold">Tours & Holidays</h6>
-          <div className="mt-2 text-base text-gray-400">
+          <div className="mt-2 text-base text-gray-400 text-justify">
             Discover tailored experiences with our Tours & Holidays service,
             where every itinerary is crafted to perfection, promising
             unforgettable moments and seamless travel arrangements.
           </div>
         </div>
-        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl	  shadow">
+        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl shadow sm:h-64">
           <h6 className="text-lg font-semibold">Domestic Hotels</h6>
-          <div className="mt-2 text-base text-gray-400">
+          <div className="mt-2 text-base text-gray-400 text-justify">
             Unwind in comfort with our Domestic Hotels offering, ensuring a
             delightful stay across your home country, featuring a diverse range
             of accommodations to suit your preferences.
           </div>
         </div>
-        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4    rounded-xl shadow">
+        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4    rounded-xl shadow sm:h-64">
           <h6 className="text-lg font-semibold">International Hotels</h6>
-          <div className="mt-2 text-base text-gray-400">
+          <div className="mt-2 text-base text-gray-400 text-justify">
             Experience luxury around the world with our International Hotels
             service, providing an array of accommodation options that cater to
             every traveler's taste and style.
           </div>
         </div>
-        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl 	shadow">
+        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl shadow sm:h-64">
           <h6 className="text-lg font-semibold">Cruise Holidays</h6>
-          <div className="mt-2 text-base text-gray-400">
+          <div className="mt-2 text-base text-gray-400 text-justify">
             Set sail into extraordinary moments with our Cruise Holidays, where
             we curate unforgettable sea voyages, promising a perfect blend of
             relaxation, adventure, and breathtaking views on the open waters.
