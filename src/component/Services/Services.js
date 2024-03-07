@@ -17,7 +17,7 @@ export const Services = () => {
   return (
     <div className="flex justify-center">
       <Slider {...settings} className=" w-3/5 ">
-        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 sm:h-64	 rounded-xl shadow">
+        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 sm:h-80	lg:h-36 md:h-44 xl:h-36 rounded-xl shadow">
           <h6 className="text-lg font-semibold">Domestic flights</h6>
           <div className="mt-2 text-base text-gray-400 text-justify">
             Soar to new heights with our domestic flights service, providing a
@@ -26,7 +26,7 @@ export const Services = () => {
           </div>
         </div>
 
-        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl shadow sm:h-64">
+        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl shadow xl:h-36 lg:h-36 md:h-44 sm:h-80	">
           <h6 className="text-lg font-semibold">International Flights</h6>
           <div className="mt-2 text-base text-gray-400 text-justify">
             Embark on global adventures with our international flights,
@@ -35,7 +35,7 @@ export const Services = () => {
             reliability.
           </div>
         </div>
-        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl  shadow sm:h-64">
+        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl xl:h-36 shadow lg:h-36 md:h-44 sm:h-80">
           <h6 className="text-lg font-semibold">Tours & Holidays</h6>
           <div className="mt-2 text-base text-gray-400 text-justify">
             Discover tailored experiences with our Tours & Holidays service,
@@ -43,7 +43,7 @@ export const Services = () => {
             unforgettable moments and seamless travel arrangements.
           </div>
         </div>
-        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl shadow sm:h-64">
+        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl shadow xl:h-36 lg:h-36 md:h-44 sm:h-80">
           <h6 className="text-lg font-semibold">Domestic Hotels</h6>
           <div className="mt-2 text-base text-gray-400 text-justify">
             Unwind in comfort with our Domestic Hotels offering, ensuring a
@@ -51,7 +51,7 @@ export const Services = () => {
             of accommodations to suit your preferences.
           </div>
         </div>
-        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4    rounded-xl shadow sm:h-64">
+        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4    rounded-xl shadow xl:h-36 lg:h-36 md:h-44 sm:h-80">
           <h6 className="text-lg font-semibold">International Hotels</h6>
           <div className="mt-2 text-base text-gray-400 text-justify">
             Experience luxury around the world with our International Hotels
@@ -59,7 +59,7 @@ export const Services = () => {
             every traveler's taste and style.
           </div>
         </div>
-        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl shadow sm:h-64">
+        <div className="border-2 border-gray-200 text-center mt-8 py-4 px-4 rounded-xl shadow xl:h-36 lg:h-36 md:h-44 sm:h-80	">
           <h6 className="text-lg font-semibold">Cruise Holidays</h6>
           <div className="mt-2 text-base text-gray-400 text-justify">
             Set sail into extraordinary moments with our Cruise Holidays, where
