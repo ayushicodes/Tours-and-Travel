@@ -7,8 +7,8 @@ import BeautifulDestination from "./component/Beautiful Destination/BeautifulDes
 import MainContact from "./component/Contact/MainContact";
 import Review from "./component/reviews/Review";
 import { Services } from "./component/Services/Services";
-import { Slider } from "./component/Slider/Slider";
-import Footer from "./component/Footer/Footer";
+// import { Slider } from "./component/Slider/Slider";
+// import Footer from "./component/Footer/Footer";
 // import { TripPlanning } from "./component/Trip Planning/TripPlanning";
 function App() {
   return (
@@ -42,7 +42,7 @@ function App() {
       <MainContact />
       <Header heading="Hear From Travelers Like You" />
       <Review />
-      <Footer />
+      {/* <Footer /> */}
 
       {/* <TripPlanning /> */}
     </div>
