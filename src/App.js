@@ -16,6 +16,9 @@ function App() {
       <Header1 />
       <LandingPage />
       <Header heading="Why Choose Us ?" />
+
+      {/* <Slider /> */}
+
       <Services />
       {/* <Slider /> */}
       <Header heading="Popular Destination" />

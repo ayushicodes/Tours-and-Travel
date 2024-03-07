@@ -1,26 +1,43 @@
 import React from "react";
-import PlaceImages from "../PlaceImages";
+import SliderComp from "./SliderComp";
 
+const imgs = [
+  {
+    url: require("./../../Assets/CruiseHoliday.png"),
+    alt: "CruiseHoliday",
+  },
+  {
+    url: require("./../../Assets/DomesticHotels.png"),
+    alt: "DomesticHotels",
+  },
+  {
+    url: require("./../../Assets/Dometicflight.png"),
+    alt: "Dometicflight",
+  },
+  {
+    url: require("./../../Assets/InternationalFlights.png"),
+    alt: "InternationalFlights",
+  },
+  {
+    url: require("./../../Assets/InternationalHotels.png"),
+    alt: "InternationalHotels",
+  },
+  {
+    url: require("./../../Assets/Tours&Holidays.png"),
+    alt: "Tours&Holidays",
+  },
+];
 export const Slider = () => {
   return (
-    <div className="w-3/4 m-auto">
-      <div
-        className="mt-20
-        "
-      >
-        {PlaceImages.map((items) => {
-          return (
-            <div className="bg-white h-[450px] text-black rounded-xl">
-              <div className="rounded-t-xl">
-                <img src={items.url} alt={items.alt} />
-              </div>
-              <div className="flex flex-col justify-center items-centergap-4 p-4">
-                <p className="text-xl font-semibold">{items.name}</p>
-                <p>{items.decs}</p>
-              </div>
-            </div>
-          );
-        })}
+    <div>
+      <div className="">
+        <SliderComp className>
+          {imgs.map((items) => {
+            return (
+              <img src={items.url} alt={items.alt} className="border-2 " />
+            );
+          })}
+        </SliderComp>
       </div>
     </div>
   );
