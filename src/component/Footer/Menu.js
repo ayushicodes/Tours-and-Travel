@@ -8,7 +8,7 @@ export const LINKS = [
   { name: " Our Hotels", link: "#" },
   { name: "  Contact Us", link: "#" },
 ];
-export const POPULARTOURS = [
+export const TOURS = [
   { name: "Romantic France", link: "#" },
   { name: "Beach Goa", link: "#" },
   { name: "Awesome Amsterdam", link: "#" },
