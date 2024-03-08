@@ -1,7 +1,6 @@
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-import { MdOutlinePhoneInTalk } from "react-icons/md";
 
 export const LINKS = [
   { name: "Home", link: "#" },
@@ -25,10 +24,12 @@ export const SERVICES = [
   { name: "Cruise Holidays", link: "#" },
 ];
 export const SUPPORT = [
-  { name: "📞9971440255", link: "#" },
+  { name: "📞 9899359708", link: "#" },
   { name: "📞 9899359708", link: "#" },
   { name: "📞9999683737", link: "#" },
   { name: "📞 9971220855", link: "#" },
+  { name: "📧 sales.travok@gmail.com", link: "#" },
+  { name: "📧 tarsh@travok.net", link: "#" },
 ];
 
 export const Icons = [

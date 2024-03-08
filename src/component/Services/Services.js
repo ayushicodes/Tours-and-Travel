@@ -10,7 +10,7 @@ export const Services = () => {
     slidesToScroll: 1,
     autoplay: true,
     speed: 5000,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 6000,
     cssEase: "linear",
   };
   return (
