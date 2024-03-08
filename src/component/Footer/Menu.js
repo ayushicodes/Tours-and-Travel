@@ -2,30 +2,32 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 
-export const PRODUCTS = [
-  { name: "Drag And Drop", link: "#" },
-  { name: "Visual Studio X", link: "#" },
-  { name: "Easy Content", link: "#" },
-];
-export const RESOURCES = [
-  { name: "Industries and tools", link: "#" },
-  { name: "Use cases", link: "#" },
-  { name: "Blog", link: "#" },
-  { name: "Online evenet", link: "#" },
-  { name: "Nostrud exercitation", link: "#" },
-];
-export const COMPANY = [
-  { name: "Diversity & inclusion", link: "#" },
+export const LINKS = [
+  { name: "Home", link: "#" },
   { name: "About us", link: "#" },
-  { name: "Press", link: "#" },
-  { name: "Customer Stories", link: "#" },
-  { name: "Online communities", link: "#" },
+  { name: " Our Hotels", link: "#" },
+  { name: "  Contact Us", link: "#" },
+];
+export const POPULARTOURS = [
+  { name: "Romantic France", link: "#" },
+  { name: "Beach Goa", link: "#" },
+  { name: "Awesome Amsterdam", link: "#" },
+  { name: "Wild Africa", link: "#" },
+  { name: "Casino Las Vegas", link: "#" },
+];
+export const SERVICES = [
+  { name: "Domestic flights", link: "#" },
+  { name: "International Flights", link: "#" },
+  { name: "Tours & Holidays", link: "#" },
+  { name: "Domestic Hotels", link: "#" },
+  { name: "International Hotels", link: "#" },
+  { name: "Cruise Holidays", link: "#" },
 ];
 export const SUPPORT = [
-  { name: "Documentation", link: "#" },
-  { name: "Tutorials & guides", link: "#" },
-  { name: "Webinars", link: "#" },
-  { name: "Open-source", link: "#" },
+  { name: "9971440255", link: "#" },
+  { name: "9899359708", link: "#" },
+  { name: "9999683737", link: "#" },
+  { name: "9971220855", link: "#" },
 ];
 
 export const Icons = [

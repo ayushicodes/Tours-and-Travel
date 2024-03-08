@@ -14,8 +14,8 @@ const Footer = () => {
           className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
          md:w-2/5"
         >
-          <span className="text-teal-400">Free</span> until you're ready to
-          launch
+          <span className="text-teal-400">Book</span> Your Tour, Create
+          Memories.
         </h1>
         <div>
           <input
@@ -28,7 +28,7 @@ const Footer = () => {
             className="bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]
            rounded-md text-white md:w-auto w-full"
           >
-            Request Code
+            Request Booking
           </button>
         </div>
       </div>
@@ -37,7 +37,7 @@ const Footer = () => {
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
       text-center pt-2 text-gray-400 text-sm pb-8"
       >
-        <span>© 2020 Appy. All rights reserved.</span>
+        <span>© 2024 Appy. All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
         {/* <SocialIcons Icons={Icons} /> */}
       </div>
