@@ -25,7 +25,7 @@ const Header1 = () => {
 
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+          className="text-3xl absolute right-8 top-3 cursor-pointer md:hidden"
         >
           <GiHamburgerMenu name={open ? "close" : "menu"} />
         </div>
