@@ -48,13 +48,14 @@ const Header1 = () => {
               </a>
             </li>
           ))}
-          <a
-            className="bg-indigo-600 text-white font-[Poppins] py-2 px-6 rounded md:ml-8 hover:bg-indigo-400 flex justify-center items-center gap-3
+          <button
+            className="bg-indigo-600 text-white font-[Poppins] py-2 px-6 rounded md:ml-8 hover:bg-indigo-400  gap-3
     duration-500"
-            href="tel:+919899359708 "
           >
-            <FaPhoneAlt /> 9899359708
-          </a>
+            <a href="tel:+919899359708 " className="flex items-center gap-3">
+              <FaPhoneAlt /> 919899359708
+            </a>
+          </button>
         </ul>
       </div>
     </div>
