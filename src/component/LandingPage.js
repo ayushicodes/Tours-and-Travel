@@ -1,5 +1,5 @@
 import React from "react";
-import video from "./../Assets/waves_-_70796 (Original).mp4";
+import video from "./../Assets/waves.webm";
 import { TypeAnimation } from "react-type-animation";
 
 const LandingPage = () => {
