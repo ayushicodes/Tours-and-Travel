@@ -1,78 +1,61 @@
 import React, { useState } from "react";
-import Logo from "./../Assets/Logo.PNG";
-import { RiInstagramFill } from "react-icons/ri";
 import { GiHamburgerMenu } from "react-icons/gi";
-
-import "./header1.css";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Header1 = () => {
-  const [showMediaIcons, setShowMediaIcons] = useState(false);
+  let Links = [
+    { name: "HOME", link: "/" },
+    { name: "ABOUT", link: "/" },
+    { name: "HOTELS", link: "/" },
+    { name: "CONTACT", link: "/" },
+  ];
+  let [open, setOpen] = useState(false);
   return (
-    <div
-      className="grid shadow"
-      style={{ gridTemplateColumns: "5rem 1fr 2fr 1fr 5rem" }}
-      id="main-nav"
-    >
-      {/* Logo */}
-      <div
-        className="grid justify-start items-center h-20	w-28 col-start-2 col-end-3"
-        id="logo"
-      >
-        <img src={Logo} alt="websiteLogo"></img>
-      </div>
-      {/* Menu part */}
-      <div
-        className="  col-start-3 col-end-4"
-        id={showMediaIcons ? "mobile-menu-link" : "menu-link"}
-      >
-        <ul className="flex justify-around items-center h-20	">
-          <li className="capitalize">
-            <a href="#Home" className="text-xl font-semibold">
-              Home
-            </a>
-          </li>
-          <li className="capitalize">
-            <a href="#Home" className="text-xl font-semibold">
-              About us
-            </a>
-          </li>
-          <li className="capitalize">
-            <a href="#Home" className="text-xl font-semibold">
-              Our Hotels
-            </a>
-          </li>
-          <li className="capitalize">
-            <a href="#Home" className="text-xl font-semibold">
-              Contact Us
-            </a>
-          </li>
-        </ul>
-      </div>
-      {/* Social Media */}
-      <div className="col-start-4 col-end-5" id="social-media">
-        <ul
-          className="grid justify-around items-center h-20"
-          style={{ gridTemplateColumns: "3fr repeat(3,1fr)" }}
-          id="social-media-desktop"
+    <div className="shadow-md w-full fixed top-0 left-0 z-50">
+      <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
+        <div
+          className="font-bold text-xl cursor-pointer flex items-center font-[Poppins] 
+      text-gray-800"
         >
-          <li className="col-start-2 col-end-3 text-2xl">
-            <a
-              href="https://www.instagram.com/travokholidays/"
-              rel="noreferrer"
-              target="_blank"
-              className="text-right className='text-xl'"
-            >
-              <RiInstagramFill className="text-red-900" />
-            </a>
-          </li>
-          <li className="text-base">+919999683737</li>
-        </ul>
-        <div id="hamburger">
-          <a href="#home" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-            <GiHamburgerMenu />
-          </a>
+          <span className="text-3xl text-indigo-600 mr-1 pt-2">
+            <ion-icon name="logo-ionic"></ion-icon>
+          </span>
+          Travok
         </div>
-        {/* hamburger menu */}
+
+        <div
+          onClick={() => setOpen(!open)}
+          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+        >
+          <GiHamburgerMenu name={open ? "close" : "menu"} />
+        </div>
+
+        <ul
+          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+            open ? "top-10 " : "top-[-490px]"
+          }`}
+        >
+          {Links.map((link) => (
+            <li
+              key={link.name}
+              className="md:ml-8 text-lg sm:text-base font-semibold md:my-0 my-7"
+            >
+              <a
+                href={link.link}
+                className="text-gray-800 hover:text-gray-400 duration-500"
+              >
+                {link.name}
+              </a>
+            </li>
+          ))}
+          <a
+            className="bg-indigo-600 text-white font-[Poppins] py-2 px-6 rounded md:ml-8 hover:bg-indigo-400 flex justify-center items-center gap-3
+    duration-500"
+            href="tel:+919899359708 "
+          >
+            <FaPhoneAlt /> 9899359708
+          </a>
+        </ul>
       </div>
     </div>
   );
