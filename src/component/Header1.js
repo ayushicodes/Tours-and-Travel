@@ -5,17 +5,17 @@ import { FaPhoneAlt } from "react-icons/fa";
 const Header1 = () => {
   let Links = [
     { name: "HOME", link: "/" },
-    { name: "ABOUT", link: "/" },
-    { name: "HOTELS", link: "/" },
-    { name: "CONTACT", link: "/" },
+    { name: "ABOUT", link: "/about" },
+    { name: "HOTEL", link: "/hotel" },
+    { name: "CONTACT", link: "/contact" },
   ];
   let [open, setOpen] = useState(false);
   return (
     <div className="shadow-md w-full fixed top-0 left-0 z-50">
-      <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
+      <div className="md:flex items-center justify-between bg-white opacity-50 py-4 md:px-10 px-7">
         <div
           className="font-bold text-xl cursor-pointer flex items-center font-[Poppins] 
-      text-gray-800"
+      text-black"
         >
           <span className="text-3xl text-indigo-600 mr-1 pt-2">
             <ion-icon name="logo-ionic"></ion-icon>
@@ -53,7 +53,7 @@ const Header1 = () => {
     duration-500"
           >
             <a href="tel:+919899359708 " className="flex items-center gap-3">
-              <FaPhoneAlt /> 919899359708
+              <FaPhoneAlt /> 9899359708
             </a>
           </button>
         </ul>
