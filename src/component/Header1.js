@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaPhoneAlt } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Header1 = () => {
   let Links = [
@@ -40,12 +41,12 @@ const Header1 = () => {
               key={link.name}
               className="md:ml-8 text-lg sm:text-base font-semibold md:my-0 my-7"
             >
-              <a
-                href={link.link}
+              <NavLink
+                to={link.link}
                 className="text-gray-800 hover:text-gray-400 duration-500"
               >
                 {link.name}
-              </a>
+              </NavLink>
             </li>
           ))}
           <button
