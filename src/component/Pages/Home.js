@@ -18,7 +18,7 @@ function Home() {
       <div className="grid xl:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 lg:gap-8 md:gap-8 sm:gap-8 px-30 sm:px-8 py-8 justify-items-center">
         {PlaceImages.map((items) => {
           return (
-            <div className="lg:py-8 md:py-4 sm:py-4">
+            <div className="lg:py-8 md:py-4 sm:py-4 " key={items.alt}>
               <div className=" overflow-hidden max-w-sm shadow-xl rounded ring-offset-cyan-400">
                 <img
                   src={items.url}

@@ -19,7 +19,7 @@ function HotelCoverSlider(props) {
         {props.descp}
       </p>
       <p className="text-center w-100">
-        <Link to={`/hotel/${props.id}`}>
+        <Link to={`/hotelCoverSlider/${props.id}`}>
           <button className="w-100 bg-black text-white px-10 py-3 rounded-xl">
             View More
           </button>

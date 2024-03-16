@@ -25,7 +25,6 @@ export const SERVICES = [
 ];
 export const SUPPORT = [
   { name: "📞 9899359708", link: "#" },
-  { name: "📞 9899359708", link: "#" },
   { name: "📞9999683737", link: "#" },
   { name: "📞 9971220855", link: "#" },
   { name: "📧 sales.travok@gmail.com", link: "#" },

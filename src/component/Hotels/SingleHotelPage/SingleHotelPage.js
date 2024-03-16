@@ -1,4 +1,5 @@
-import React, { useState, useRef, useEffect, useParams } from "react";
+import React, { useState, useRef, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import "./SingleHotelPage.css";
 import DetailThump from "./DetailThump";
 import { HotelCoverData } from "./../HotelCoverData";
@@ -33,7 +34,7 @@ const SingleHotelPage = () => {
         <div className="box">
           <div className="row">
             <h2>{title}</h2>
-            <span>${price}</span>
+            <span>Rs{price}</span>
           </div>
 
           <p>{content}</p>

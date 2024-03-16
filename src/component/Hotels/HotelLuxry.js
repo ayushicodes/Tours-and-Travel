@@ -35,7 +35,10 @@ function HotelLuxry() {
     <div className="lg:flex-row md:flex-row flex sm:flex-col">
       {img.map((items) => {
         return (
-          <div className="relative w-100% sm:overflow-x-hidden h-3/5	   lg:w-full transition ease-in-out duration-500 delay-450 lg:hover:-translate-y-6">
+          <div
+            className="relative w-100% sm:overflow-x-hidden h-3/5	   lg:w-full transition ease-in-out duration-500 delay-450 lg:hover:-translate-y-6"
+            key={items.alt}
+          >
             <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
             <img
               src={items.url}

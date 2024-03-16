@@ -16,6 +16,7 @@ import {
 function Hotel() {
   const product = HotelCoverData.map((item) => (
     <HotelCoverSlider
+      key={item.id}
       id={item.id}
       title={item.title}
       src={item.src}

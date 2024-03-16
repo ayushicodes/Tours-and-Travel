@@ -7,6 +7,8 @@ import Contact from "./component/Pages/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header1 from "./component/Header1";
 import Footer from "./component/Footer/Footer";
+import SingleHotelPage from "./component/Hotels/SingleHotelPage/SingleHotelPage";
+import HotelCoverSlider from "./component/Hotels/HotelCoverSlider";
 
 function App() {
   return (
@@ -16,6 +18,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/hotel" element={<Hotel />} />
+        <Route path="/hotelCoverSlider" element={<HotelCoverSlider />} />
+        <Route
+          path="/hotelCoverSlider/:productId"
+          element={<SingleHotelPage />}
+        />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
