@@ -1,8 +1,7 @@
 import React from "react";
-import SingleHotelPage from "../Hotels/SingleHotelPage/SingleHotelPage";
 
 function About() {
-  return <SingleHotelPage />;
+  return <div>About us</div>;
 }
 
 export default About;
