@@ -34,7 +34,7 @@ const SingleHotelPage = () => {
         <div className="box">
           <div className="row">
             <h2>{title}</h2>
-            <span>Rs{price}</span>
+            <span className="font-bold">{price}</span>
           </div>
 
           <p>{content}</p>
